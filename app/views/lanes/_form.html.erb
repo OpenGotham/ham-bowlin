@@ -1,0 +1,25 @@
+<%= form_for(@lane) do |f| %>
+  <% if @lane.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@lane.errors.count, "error") %> prohibited this lane from being saved:</h2>
+
+      <ul>
+      <% @lane.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :center_id %><br />
+    <%= f.text_field :center_id %>
+  </div>
+  <div class="field">
+    <%= f.label :avail %><br />
+    <%= f.check_box :avail %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

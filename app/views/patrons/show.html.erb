@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Cc:</b>
+  <%= @patron.cc %>
+</p>
+
+
+<%= link_to 'Edit', edit_patron_path(@patron) %> |
+<%= link_to 'Back', patrons_path %>

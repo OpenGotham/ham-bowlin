@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  lane_id: 1
+  patron_id: 1
+  start_time: 2010-08-19 20:04:59
+  end_time: 2010-08-19 20:04:59
+
+two:
+  lane_id: 1
+  patron_id: 1
+  start_time: 2010-08-19 20:04:59
+  end_time: 2010-08-19 20:04:59

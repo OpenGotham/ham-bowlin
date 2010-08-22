@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Center:</b>
+  <%= @lane.center_id %>
+</p>
+
+<p>
+  <b>Avail:</b>
+  <%= @lane.avail %>
+</p>
+
+
+<%= link_to 'Edit', edit_lane_path(@lane) %> |
+<%= link_to 'Back', lanes_path %>
